@@ -24,7 +24,7 @@ def grade(average):
         return "F"
 
 
-def classstat():
+def stat():
     if len(stud) == 0:
         print("No students added yet.\n")
         return
