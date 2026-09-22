@@ -1,45 +1,45 @@
-#this is the main file of the project
-
-from operations import add, update, delete
+# this portion will run the code
+from operations import add, update, dlt
 from view import viewstud, view_allstud
-from grading import classstat
+from grading import stat
 
 
-def menu():
-    print("------ Student Marks Manager ------")
-    print("1. Add Student")
-    print("2. Update Marks")
-    print("3. View Student Report")
-    print("4. View All Students")
-    print("5. Class Statistics")
-    print("6. Delete Student")
-    print("7. Exit")
+def show():
+    print("Student Marks Manager")
+    print("1 Add students")
+    print("2 Update marks")
+    print("3 View Student report")
+    print("4 view all Students")
+    print("5 Class Statistics")
+    print("6  Del student")
+    print("7 exit")
 
 
 def main():
     while True:
-        menu()
-        c = input("Enter your choice (1-7): ")
+        show()
+        c = input("Enter choice 1 to 7")
 
         if c == "1":
             add()
         elif c == "2":
-            update()
+          update()
         elif c == "3":
-            name = input("Enter student name: ")
-            viewstud(name)
+          name = input("Enter student name")
+          viewstud(name)
         elif c == "4":
-            view_allstud()
+          view_allstud()
         elif c == "5":
-            classstat()
+           stat()
         elif c == "6":
-            delete()
+          dlt()
         elif c == "7":
-            print("Bye!")
+            print("end")
             break
         else:
-            print("Invalid\n")
+            print("invalid")
+            print()
 
 
-if __name__ == "__main__":
-    main()
+
+main()
