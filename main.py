@@ -18,14 +18,14 @@ def show():
 def func():
     while True:
         show()
-        c = input("Enter choice 1 to 7")
+        c = input("Enter choice 1 to 7-")
 
         if c == "1":
             add()
         elif c == "2":
           update()
         elif c == "3":
-          name = input("Enter name")
+          name = input("Enter name-")
           viewstud(name)
         elif c == "4":
           view_allstud()
