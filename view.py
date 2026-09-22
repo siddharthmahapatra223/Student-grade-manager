@@ -1,10 +1,10 @@
 #helps to view data
 from store import stud
 from grading import avg, grade
-from operations import normalisename
+from operations import normal
 
 def viewstud(name):
-    name=normalisename(name)
+    name=normal(name)
     if name not in stud:
         print("Student not found\n")
         return
