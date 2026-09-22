@@ -3,11 +3,14 @@ from store import stud
 
 
 def avg(marks):
-    s = 0
-    for m in marks:
-        s += m
-    return s / len(marks)
-
+    if len(marks)!=0:
+      s = 0
+      for m in marks:
+          s += m
+      return s / len(marks)
+        
+    else:
+        print("no data available")
 
 def grade(average):
     if average >= 90:
