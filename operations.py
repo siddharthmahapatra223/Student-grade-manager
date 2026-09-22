@@ -20,7 +20,7 @@ def add():
         marks.append(mark)
 
     stud[name] = marks
-    print(name, "added successfully.\n")
+    print(name, "added.\n")
 
 
 def update():
@@ -36,7 +36,7 @@ def update():
         marks.append(mark)
 
     stud[name] = marks
-    print(name, "'s marks updated\n")
+    print("updated\n")
 
 
 
@@ -44,6 +44,6 @@ def dlt():
     name = normalisename(input("Enter student name to delete: "))
     if name in stud:
         del stud[name]
-        print(name, "deleted successfully\n")
+        print(name, "deleted\n")
     else:
         print("Student not found!\n")
