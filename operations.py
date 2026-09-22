@@ -3,11 +3,11 @@
 from store import stud
 from grading import avg, grade
 
-def normalisename(name):
+def normal(name):
     return name.strip().title()
 
 def add():
-    name = normalisename(input("Enter student's name: "))
+    name = normal(input("Enter student's name: "))
 
     if name in stud:
         print(name, "exists\n")
@@ -24,7 +24,7 @@ def add():
 
 
 def update():
-    name = normalisename(input("Enter the student's name: "))
+    name = normal(input("Enter the student's name: "))
     if name not in stud:
         print("Student not found\n")
         return
@@ -41,9 +41,9 @@ def update():
 
 
 def dlt():
-    name = normalisename(input("Enter student name to delete: "))
+    name = normal(input("Enter student name to delete: "))
     if name in stud:
         del stud[name]
         print(name, "deleted\n")
     else:
-        print("Student not found!\n")
+        print("Student not found\n")
