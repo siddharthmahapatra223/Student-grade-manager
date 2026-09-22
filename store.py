@@ -1,0 +1,3 @@
+#stores stud dictionary
+
+stud = {}
