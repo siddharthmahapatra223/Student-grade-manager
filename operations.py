@@ -40,7 +40,7 @@ def update():
 
 
 
-def delete():
+def dlt():
     name = normalisename(input("Enter student name to delete: "))
     if name in stud:
         del stud[name]
