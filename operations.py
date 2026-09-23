@@ -15,6 +15,9 @@ def add():
 
     marks = []
     numsub = int(input("Enter the no. of subjects: "))
+    while numsub < 1:
+       print("Must enter at least 1 subject.")
+       numsub = int(input("Enter the no. of subjects: "))
     for i in range(numsub):
         mark = float(input(f"Enter the marks for subject {i+1}: "))
         marks.append(mark)
