@@ -34,6 +34,9 @@ def update():
 
     marks = []
     numsubjects = int(input("Enter no. of subjects: "))
+    while numsubjects < 1:
+        print("Must enter at least 1 subject.")
+        numsubjects = int(input("Enter no. of subjects: "))
     for i in range(numsubjects):
         mark = float(input(f"Enter the marks for subject {i+1}: "))
         marks.append(mark)
