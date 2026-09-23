@@ -24,14 +24,6 @@ I built this project as an academic exercise to practice core Python concepts su
 
 - A simple text menu that continues to run until you decide to exit.
 
-## Tech Stack
-
-- **Language:** Python 3 ( standard library, no external packages required)
-
-- **Interface:** Command line or terminal
-
-- **Storage:** In-memory Python dictionary (data is not written to a file so it resets each time the program restarts)
-
 ## Project Structure
 
 ```
@@ -60,19 +52,19 @@ Student-grade-manager/
 
 | Average Marks | Grade |
 
-|---|---|
+|---------------|-------|
 
-| 90 and above | A+ |
+| 90 and above  |   A+  |
 
-| 80 – 89 | A |
+| 80 – 89       |   A   |
 
-70 – 79 | B |
+| 70 – 79       |   B   |
 
-| 60 – 69 | C |
+| 60 – 69       |   C   |
 
-| 50 – 59 D |
+| 50 – 59       |   D   |
 
-| Below 50 | F |
+| Below 50      |   F   |
 
 ## Setup Instructions
 
@@ -141,3 +133,4 @@ Simply type the number corresponding to what you want to do and follow the promp
 ## Author
 
 Siddharth Mahapatra
+26BAI10063
