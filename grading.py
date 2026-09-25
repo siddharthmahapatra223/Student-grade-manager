@@ -36,4 +36,4 @@ def stat():
     high = max(allavg)
     low = min(allavg)
     classavg = sum(allavg) / len(allavg)
-    print("highest:", high, "\nlowest:", low, "\nClass average:", classavg)
+    print("highest:", high, "\nlowest:", low, "\nClass average:", classavg,"\n")
