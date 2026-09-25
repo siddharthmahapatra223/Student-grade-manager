@@ -17,7 +17,7 @@ def viewstud(name):
     print("Marks:", marks)
     print("Average: %.2f" % av)
     print("Grade:", gr)
-
+    print()
 
 def view_allstud():
     if len(stud) == 0:
