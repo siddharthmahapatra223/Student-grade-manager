@@ -18,7 +18,7 @@ def show():
 def func():
     while True:
         show()
-        c = input("Enter choice 1 to 7-")
+        c = input("Enter choice 1 to 7:")
 
         if c == "1":
             add()
