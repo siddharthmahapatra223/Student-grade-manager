@@ -14,7 +14,7 @@ def add():
         return
 
     marks = []
-    numsub = int(input("Enter the no. of subjects: "))
+    numsub= int(input("Enter the no. of subjects: "))
     while numsub < 1:
        print("Must enter at least 1 subject.")
        numsub = int(input("Enter the no. of subjects: "))
